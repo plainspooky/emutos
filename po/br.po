@@ -7,7 +7,7 @@ msgstr ""
 "Last-Translator: Giovanni Nunes <giovanni.nunes@gmail.com,>\n"
 "Language-Team: Brazilian Portuguese\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: bios/bios.c
@@ -291,7 +291,7 @@ msgstr "Volume: ________.___"
 
 #: desk/desk_rsc.c
 msgid " Desk "
-msgstr " Desktop "
+msgstr " Mesa "
 
 #: desk/desk_rsc.c
 msgid " File "
@@ -307,7 +307,7 @@ msgstr " Opções "
 
 #: desk/desk_rsc.c
 msgid "  Desktop info..."
-msgstr "  Sobre o Desktop..."
+msgstr "  Sobre a Mesa..."
 
 #: desk/desk_rsc.c
 msgid "  Open"
@@ -351,7 +351,7 @@ msgstr "  Apagar..."
 
 #: desk/desk_rsc.c
 msgid "  Format floppy..."
-msgstr "  Formatar diquete..."
+msgstr "  Formatar disquete..."
 
 #: desk/desk_rsc.c
 msgid "  Eject floppy"
@@ -367,7 +367,7 @@ msgstr "  Desligar"
 
 #: desk/desk_rsc.c
 msgid "  Show as icons"
-msgstr "  Exibir como Í­cones"
+msgstr "  Exibir como ícones"
 
 #: desk/desk_rsc.c
 msgid "  Show as text"
@@ -387,11 +387,11 @@ msgstr "  Ordenar por tamanho"
 
 #: desk/desk_rsc.c
 msgid "  Sort by date"
-msgstr "  Ordenr por data"
+msgstr "  Ordenar por data"
 
 #: desk/desk_rsc.c
 msgid "  No sort"
-msgstr "  Não ordenrar"
+msgstr "  Não ordenar"
 
 #: desk/desk_rsc.c
 msgid "  Size to fit"
@@ -403,7 +403,7 @@ msgstr "  Definir fundo..."
 
 #: desk/desk_rsc.c
 msgid "  Install icon..."
-msgstr "  Instalar Ícone..."
+msgstr "  Instalar ícone..."
 
 #: desk/desk_rsc.c
 msgid "  Install application..."
@@ -415,15 +415,15 @@ msgstr "  Instalar dispositivo"
 
 #: desk/desk_rsc.c
 msgid "  Remove desktop icon"
-msgstr "  Remover Í­cone do desktop"
+msgstr "  Remover ícone da mesa"
 
 #: desk/desk_rsc.c
 msgid "  Set preferences..."
-msgstr "Preferências..."
+msgstr "  Preferências..."
 
 #: desk/desk_rsc.c
 msgid "  Desktop configuration..."
-msgstr "  Configurações do desktop..."
+msgstr "  Configurações da mesa..."
 
 #: desk/desk_rsc.c
 msgid "  Change resolution..."
@@ -431,11 +431,11 @@ msgstr "  Mudar resolução..."
 
 #: desk/desk_rsc.c
 msgid "  Read .INF file..."
-msgstr "Ler arquivo .INF..."
+msgstr "  Ler arquivo .INF..."
 
 #: desk/desk_rsc.c
 msgid "  Save desktop..."
-msgstr "  Salvar desktop..."
+msgstr "  Salvar mesa..."
 
 #: desk/desk_rsc.c
 msgid "  Blitter"
@@ -453,8 +453,7 @@ msgstr "Leitura/Escrita"
 msgid "Read-Only"
 msgstr "Só-Leitura"
 
-#: desk/desk_rsc.c
-msgid "DISK INFORMATION"
+#: desk/desk_rsc.c msgid "DISK INFORMATION"
 msgstr "INFORMAÇÃO DO DISCO"
 
 #: desk/desk_rsc.c
@@ -467,7 +466,7 @@ msgstr "Copyright (c) 2001-"
 
 #: desk/desk_rsc.c
 msgid "The EmuTOS development team"
-msgstr "A equipe de desenvolvimento do EmuTOS"
+msgstr "O time de desenvolvimento do EmuTOS"
 
 #: desk/desk_rsc.c
 msgid "Based on 'GPLed' sources"
@@ -547,7 +546,7 @@ msgstr "Tipo da aplicação:"
 
 #: desk/desk_rsc.c
 msgid "Default dir:"
-msgstr "Diretório padrão:"
+msgstr "Dir. padrão:"
 
 #: desk/desk_rsc.c
 msgid "Application"
@@ -595,15 +594,15 @@ msgstr "DEFINIR PREFERÊNCIAS"
 
 #: desk/desk_rsc.c
 msgid "Confirm deletes:"
-msgstr "Confirmar apagamentos:"
+msgstr "Confirma apagamentos:"
 
 #: desk/desk_rsc.c
 msgid "Confirm copies:"
-msgstr "Confirmar cópias:"
+msgstr "Confirma cópias:"
 
 #: desk/desk_rsc.c
 msgid "Confirm overwrites:"
-msgstr "Confirmar sobrescritas:"
+msgstr "Confirma sobrescritas:"
 
 #: desk/desk_rsc.c
 msgid "Double-click speed:"
@@ -611,7 +610,7 @@ msgstr "Velocidade clique-duplo:"
 
 #: desk/desk_rsc.c
 msgid "Time format:"
-msgstr "Formato de hora:"
+msgstr "Formato da hora:"
 
 #: desk/desk_rsc.c
 msgid "Default"
@@ -743,7 +742,7 @@ msgstr "Seleção:"
 
 #: desk/desk_rsc.c
 msgid "Desktop"
-msgstr "Desktop"
+msgstr "Mesa"
 
 #: desk/desk_rsc.c
 msgid "Style:"
@@ -755,7 +754,7 @@ msgstr "Cor:"
 
 #: desk/desk_rsc.c
 msgid " %ld bytes used in %d items."
-msgstr " %ld bytes usadoos em %d itens."
+msgstr " %ld bytes usados em %d itens."
 
 #: desk/desk_rsc.c
 msgid " %ld bytes used in %d selected items."
@@ -894,7 +893,7 @@ msgstr ""
 
 #: desk/desk_rsc.c
 msgid "[2][Save Desktop?][  OK  |Cancel]"
-msgstr ""
+msgstr "[2][Salvar Mesa?][  OK  |Cancelar]"
 
 #: desk/desk_rsc.c
 msgid "[2][Do you want to remove icons|or delete files?][Icons|Files|Cancel]"
@@ -912,17 +911,17 @@ msgstr ""
 
 #: desk/desk_rsc.c
 msgid "[3][Not enough memory to|initialise EmuDesk.|You must reboot.][  OK  ]"
-msgstr ""
+msgstr "[3][Memória insuficiente|para abrir o EmuDesk.|Você deve reinicar.][  OK  ]"
 
 #: desk/desk_rsc.c
 msgid ""
 "[2][%s not found.|Do you want to remove the|icon or locate the item?][Remove|"
 "Locate|Cancel]"
-msgstr ""
+msgstr "%s não encontrado.|Você deseja remover o|ícone ou localizá-lo?][Remover|Localizar|Cancelar]"
 
 #: desk/desk_rsc.c
 msgid "[1][Please select icon type.][Desktop|Window|Cancel]"
-msgstr ""
+msgstr "[1][Selecione o tipo de ícone.][Mesa|Janela|Cancelar]"
 
 #: desk/desk_rsc.c
 msgid "[1][No matching file type.][  OK  ]"
@@ -940,7 +939,7 @@ msgstr ""
 
 #: desk/desk_rsc.c
 msgid "[1][Drive %s: does not exist.][ Cancel ]"
-msgstr ""
+msgstr "[1][Drive %s: não existe.][ Cancelar ]"
 
 #: desk/desk_rsc.c
 msgid "[1][No drive identifier.][ Retry ]"
@@ -948,19 +947,19 @@ msgstr ""
 
 #: desk/desk_rsc.c
 msgid "[1][Cannot delete file|%s][ Skip | Retry | Abort ]"
-msgstr ""
+msgstr "[1][Não pude apagar o arquivo|%s][ Pular | Retentar | Abortar ]"
 
 #: desk/desk_rsc.c
 msgid "[1][Cannot delete directory|%s][ Skip | Retry | Abort ]"
-msgstr ""
+msgstr "[1][Não pude apagar o diretório|%s][ Pular | Retentar | Abortar ]"
 
 #: desk/desk_rsc.c
 msgid "[1][Not enough memory.][  OK  ]"
-msgstr ""
+msgstr "[1][Memória insuficiente.][  OK  ]"
 
 #: desk/desk_rsc.c
 msgid "[1][%s not found.][  OK  ]"
-msgstr ""
+msgstr "[1][%s não encontrado.][  OK  ]"
 
 #: desk/desk_rsc.c
 msgid "[1][Cannot open file|%s][ Skip | Retry | Abort ]"
@@ -1053,7 +1052,7 @@ msgstr ""
 
 #: cli/cmdint.c
 msgid "Exit EmuCON2"
-msgstr "Sai do EmuCON2"
+msgstr "Encerra o EmuCON2"
 
 #: cli/cmdint.c
 msgid "Get help about <cmd> or list available commands"
