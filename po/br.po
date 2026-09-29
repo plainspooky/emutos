@@ -28,7 +28,7 @@ msgstr "Sistema travado!\n"
 
 #: bios/initinfo.c
 msgid "GEMDOS drives"
-msgstr "Unidades do GEMDOS"
+msgstr "Volumes do GEMDOS"
 
 #: bios/initinfo.c
 msgid "MB"
@@ -40,11 +40,11 @@ msgstr "KB"
 
 #: bios/initinfo.c
 msgid "EmuTOS Version"
-msgstr "EmuTOS versão"
+msgstr "EmuTOS Versão"
 
 #: bios/initinfo.c
 msgid "CPU type"
-msgstr "Tipo de CPU"
+msgstr "Processador"
 
 #: bios/initinfo.c
 msgid "Machine"
@@ -52,7 +52,7 @@ msgstr "Modelo"
 
 #: bios/initinfo.c
 msgid "Boot time"
-msgstr "Hora no boot"
+msgstr "Data e hora"
 
 #: bios/initinfo.c
 msgid "Hold <Control> to skip AUTO/ACC"
@@ -60,11 +60,11 @@ msgstr "Segure <Control> para pular AUTO/ACC"
 
 #: bios/initinfo.c
 msgid "Hold <Alternate> to skip HDD boot"
-msgstr "Segure <Alternate> para pular o boot pelo HD"
+msgstr "Segure <Alternate> para pular boot pelo HD"
 
 #: bios/initinfo.c
 msgid "Press key 'X' to boot from X:"
-msgstr "Pressione 'X' para iniciar por X:"
+msgstr "Pressione 'X' para iniciar em X:"
 
 #: bios/initinfo.c
 msgid "Press <Esc> to run an early console"
@@ -87,13 +87,13 @@ msgid ""
 "\033EOut of internal memory.\n"
 "Use FOLDR100.PRG to get more.\n"
 "System halted!\n"
-msgstr "\033Sem memória interna.\n"
+msgstr "\033EFalta memória.\n"
 "Use FOLDR100.PRG para aumentá-la.\n"
 "Sistema travado!\n"
 
 #: aes/gem_rsc.c
 msgid "Selection: ________.___"
-msgstr "Selecão:   ________.___"
+msgstr "Seleção:   ________.___"
 
 #: aes/gem_rsc.c
 msgid "Directory:"
@@ -101,7 +101,7 @@ msgstr "Diretório:"
 
 #: aes/gem_rsc.c desk/desk_rsc.c
 msgid "Drive:"
-msgstr "Unidade:"
+msgstr "Volume:"
 
 #: aes/gem_rsc.c desk/desk_rsc.c
 msgid "OK"
@@ -113,13 +113,13 @@ msgstr "Cancelar"
 
 #: aes/gem_rsc.c
 msgid "[1][The disk in drive %c: is|physically write-protected.][Cancel|Retry]"
-msgstr ""
+msgstr "[1][O disco na unidade %c: está|protegido contra escrita.][Cancelar|Retentar]"
 
 #: aes/gem_rsc.c
 msgid ""
 "[2][Drive %c: is not responding.|Please check the disk drive,|or insert a "
 "disk.][Cancel|Retry]"
-msgstr ""
+msgstr "[2][A unidade %c: não responde.|Verifique a unidade, ou|insira um disco.][Cancelar|Retentar]"
 
 #: aes/gem_rsc.c
 msgid "[1][Data on the disk in drive %c:|may be damaged.][Cancel|Retry]"
@@ -133,13 +133,13 @@ msgstr ""
 
 #: aes/gem_rsc.c
 msgid "[1][Your output device is not|receiving data.][Cancel|Retry]"
-msgstr ""
+msgstr "[1][O dispositivo de saída não|est[a recebendo dados.][Cancelar|Retentar]"
 
 #: aes/gem_rsc.c
 msgid ""
 "[3][An error has occurred in GEM.|Please contact the EmuTOS|Development "
 "Team.][Cancel]"
-msgstr ""
+msgstr "[3]Ocorreu um erro no GEM.|Por favor, contacte o time de|desenvolvimento do EmuTOS.][Cancel]"
 
 #: aes/gem_rsc.c
 msgid ""
@@ -171,11 +171,11 @@ msgstr ""
 
 #: aes/gem_rsc.c
 msgid "[3][TOS error #%u.][Cancel]"
-msgstr ""
+msgstr "[3][Erro #%u do TOS.][Cancelar]"
 
 #: aes/gem_rsc.c
 msgid "[3][Unsupported AES function #%d.][Cancel]"
-msgstr ""
+msgstr "[3]Função #%d não suportada pelo AES.][Cancelar]"
 
 #: aes/gem_rsc.c
 msgid "[1][Not enough memory for|this directory][  OK  ]"
@@ -231,11 +231,11 @@ msgstr "Hora:   __:__ __  "
 
 #: desk/desk_rsc.c
 msgid "Drive identifier:  _           "
-msgstr ""
+msgstr "Identificador do Volume: _     "
 
 #: desk/desk_rsc.c
 msgid "Disk label:  ________.___"
-msgstr "Volume:      ________.___"
+msgstr "Rótulo:      ________.___"
 
 #: desk/desk_rsc.c
 msgid "Bytes used:    __________"
@@ -247,11 +247,11 @@ msgstr "Bytes disponíveis:  __________"
 
 #: desk/desk_rsc.c
 msgid "Identifier: _:"
-msgstr ""
+msgstr "Identificador: _:"
 
 #: desk/desk_rsc.c
 msgid "Label: ____________"
-msgstr "Volume: ____________"
+msgstr "Rótulo: ____________"
 
 #: desk/desk_rsc.c
 msgid "Application name: ________.___"
@@ -259,7 +259,7 @@ msgstr "Nome da Aplicação: ________.___"
 
 #: desk/desk_rsc.c
 msgid "Arguments: ___________"
-msgstr "Argumentos: ___________"
+msgstr "Parâmetros: ___________"
 
 #: desk/desk_rsc.c
 msgid "Document type: ___"
@@ -275,7 +275,7 @@ msgstr "Nome atual:  ________.___"
 
 #: desk/desk_rsc.c
 msgid "Copy's name: ________.___"
-msgstr ""
+msgstr "Nome da cópia: ________.___"
 
 #: desk/desk_rsc.c
 msgid "Key: ^_"
@@ -287,7 +287,7 @@ msgstr "RAM Livre: _____________________"
 
 #: desk/desk_rsc.c
 msgid "Label: ________.___"
-msgstr "Volume: ________.___"
+msgstr "Rótulo: ________.___"
 
 #: desk/desk_rsc.c
 msgid " Desk "
@@ -331,7 +331,7 @@ msgstr "  Fechar diretório"
 
 #: desk/desk_rsc.c
 msgid "  Close top window"
-msgstr "  Fechar janela pai"
+msgstr "  Fechar janela"
 
 #: desk/desk_rsc.c
 msgid "  Cycle windows"
@@ -395,7 +395,7 @@ msgstr "  Não ordenar"
 
 #: desk/desk_rsc.c
 msgid "  Size to fit"
-msgstr "  Ajustar para caber"
+msgstr "  Ajustar à largura"
 
 #: desk/desk_rsc.c
 msgid "  Set background..."
@@ -423,11 +423,11 @@ msgstr "  Preferências..."
 
 #: desk/desk_rsc.c
 msgid "  Desktop configuration..."
-msgstr "  Configurações da mesa..."
+msgstr "  Configuração da mesa..."
 
 #: desk/desk_rsc.c
 msgid "  Change resolution..."
-msgstr "  Mudar resolução..."
+msgstr "  Trocar resolução..."
 
 #: desk/desk_rsc.c
 msgid "  Read .INF file..."
@@ -451,10 +451,11 @@ msgstr "Leitura/Escrita"
 
 #: desk/desk_rsc.c
 msgid "Read-Only"
-msgstr "Só-Leitura"
+msgstr "Só leitura"
 
-#: desk/desk_rsc.c msgid "DISK INFORMATION"
-msgstr "INFORMAÇÃO DO DISCO"
+#: desk/desk_rsc.c
+msgid "DISK INFORMATION"
+msgstr "INFORMAÇÕES DO DISCO"
 
 #: desk/desk_rsc.c
 msgid "Version"
@@ -473,11 +474,11 @@ msgid "Based on 'GPLed' sources"
 msgstr "Baseado em código 'GPLizado'"
 
 #: desk/desk_rsc.c
-msgid "\275  1987 Digital Research, Inc."
+msgid "\275 1987 Digital Research, Inc."
 msgstr "© 1987 Digital Research, Inc."
 
 #: desk/desk_rsc.c
-msgid "\275  1999 Caldera Thin Clients, Inc."
+msgid "\275 1999 Caldera Thin Clients, Inc."
 msgstr "© 1999 Caldera Thin Clients, Inc."
 
 #: desk/desk_rsc.c
@@ -502,7 +503,7 @@ msgstr "Parâmetros:"
 
 #: desk/desk_rsc.c
 msgid "INSTALL DESKTOP ICON"
-msgstr "INSTALAR ÍONE NO DESKTOP"
+msgstr "INSTALAR ÍCONE NA MESA"
 
 #: desk/desk_rsc.c
 msgid "Item type:"
@@ -510,7 +511,7 @@ msgstr "Tipo do item:"
 
 #: desk/desk_rsc.c
 msgid "Drive"
-msgstr "Unidade"
+msgstr "Volume"
 
 #: desk/desk_rsc.c
 msgid "Trash can"
@@ -530,11 +531,11 @@ msgstr "INSTALAR APLICAÇÃO"
 
 #: desk/desk_rsc.c
 msgid "Boot status:"
-msgstr ""
+msgstr "Status do boot:"
 
 #: desk/desk_rsc.c
 msgid "Auto"
-msgstr "Automático"
+msgstr "Auto"
 
 #: desk/desk_rsc.c
 msgid "Normal"
@@ -562,7 +563,7 @@ msgstr "Parâmetro:"
 
 #: desk/desk_rsc.c
 msgid "Full path"
-msgstr ""
+msgstr "Caminho"
 
 #: desk/desk_rsc.c
 msgid "File name"
@@ -570,7 +571,7 @@ msgstr "Arquivo"
 
 #: desk/desk_rsc.c
 msgid "NAME CONFLICT DURING COPY"
-msgstr "CONFLITO DE NOME DURANTE A CÓPIA"
+msgstr "CONFLITO DE NOME DURANTE CÓPIA"
 
 #: desk/desk_rsc.c
 msgid "Stop"
@@ -594,15 +595,15 @@ msgstr "DEFINIR PREFERÊNCIAS"
 
 #: desk/desk_rsc.c
 msgid "Confirm deletes:"
-msgstr "Confirma apagamentos:"
+msgstr "Confirmar apagamento:"
 
 #: desk/desk_rsc.c
 msgid "Confirm copies:"
-msgstr "Confirma cópias:"
+msgstr "Confirmar cópia:"
 
 #: desk/desk_rsc.c
 msgid "Confirm overwrites:"
-msgstr "Confirma sobrescritas:"
+msgstr "Confirmar sobrescrita:"
 
 #: desk/desk_rsc.c
 msgid "Double-click speed:"
@@ -642,7 +643,7 @@ msgstr "DEFINIR MÁSCARA"
 
 #: desk/desk_rsc.c
 msgid "DESKTOP CONFIGURATION"
-msgstr "CONFIGURAÇÃO DO DESKTOP"
+msgstr "CONFIGURAÇÃO DA MESA"
 
 #: desk/desk_rsc.c
 msgid "Function keys:"
@@ -658,27 +659,27 @@ msgstr "Limpar tudo"
 
 #: desk/desk_rsc.c
 msgid "SET SCREEN RESOLUTION"
-msgstr "DEFINIR RESOLUÇÃO DE TELA"
+msgstr "DEFINIR RESOLUÇÃO DA TELA"
 
 #: desk/desk_rsc.c
 msgid "ST Low"
-msgstr "ST Baixa"
+msgstr "Baixa ST"
 
 #: desk/desk_rsc.c
 msgid "ST Medium"
-msgstr "ST Média"
+msgstr "Média ST"
 
 #: desk/desk_rsc.c
 msgid "ST High"
-msgstr "ST Alta"
+msgstr "Alta ST"
 
 #: desk/desk_rsc.c
 msgid "TT Low"
-msgstr "TT Baixa"
+msgstr "Baixa TT"
 
 #: desk/desk_rsc.c
 msgid "TT Medium"
-msgstr "TT Média"
+msgstr "Média TT"
 
 #: desk/desk_rsc.c
 msgid "High"
@@ -762,7 +763,7 @@ msgstr " %ld bytes usados em %d itens selecionados."
 
 #: desk/desk_rsc.c
 msgid "FILE INFORMATION"
-msgstr "INFORMAÇÃO DO ARQUIVO"
+msgstr "INFORMAÇÕES DO ARQUIVO"
 
 #: desk/desk_rsc.c
 msgid "FOLDER INFORMATION"
@@ -782,7 +783,7 @@ msgstr "APAGAR ARQUIVO(S)"
 
 #: desk/desk_rsc.c
 msgid "DISK"
-msgstr "DISCO"
+msgstr "VOLUME"
 
 #: desk/desk_rsc.c
 msgid "TRASH"
@@ -806,7 +807,7 @@ msgstr "-Erro de leitura do arquivo-"
 
 #: desk/desk_rsc.c
 msgid "Locate item"
-msgstr ""
+msgstr "Localizar item"
 
 #: desk/desk_rsc.c
 msgid "Select .INF file"
@@ -822,7 +823,7 @@ msgstr "[2][Exibir ou imprimir o documento?][Exibir|Imprimir|Cancelar]"
 
 #: desk/desk_rsc.c
 msgid "[1][Print error!][ Retry | Cancel ]"
-msgstr "[1][Erro ao imprimir!][ Retentar ][ Cancelar ]"
+msgstr "[1][Erro de impressão!][ Retentar ][ Cancelar ]"
 
 #: desk/desk_rsc.c
 msgid "[1][This document type has no|associated application.][  OK  ]"
@@ -833,10 +834,11 @@ msgid ""
 "[1][The GEM Desktop has no more|windows.  Please close a|window that you are "
 "not|using.][  OK  ]"
 msgstr ""
+"[1][O ambiente GEM não tem mais|Janelas.  Feche algumas|que não esteja mais|usando.][  OK  ]"
 
 #: desk/desk_rsc.c
 msgid "[1][Illegal directory operation!][ Skip | Abort ]"
-msgstr ""
+msgstr "[1][Operação ilegal em diretório!][ Pular | Abortar ]"
 
 #: desk/desk_rsc.c
 msgid "[1][Illegal operation!][  OK  ]"
@@ -844,17 +846,17 @@ msgstr "[1][Operação ilegal!][  OK  ]"
 
 #: desk/desk_rsc.c
 msgid "[2][Abort this operation?][ Yes | No ]"
-msgstr "[1][Abortar a operação?][ Sim | Não ]"
+msgstr "[2][Abortar a operação?][ Sim | Não ]"
 
 #: desk/desk_rsc.c
 msgid "[2][Do you want to delete all|the files on drive %c: ?][Yes| No ]"
-msgstr ""
+msgstr "[2][Deseja mesmo apagar todos|os arquivos em %c: ?][Sim|Não]"
 
 #: desk/desk_rsc.c
 msgid ""
 "[1][Sorry, the desktop cannot|install any more icons|or applications.]"
 "[  OK  ]"
-msgstr ""
+msgstr "[1][Desculpe, mas não é possível|instalar mais ícones|ou aplicações.][  OK  ]"
 
 #: desk/desk_rsc.c
 msgid ""
@@ -979,19 +981,19 @@ msgstr ""
 
 #: desk/desk_rsc.c
 msgid "[1][Rename error!][ Retry | Cancel ]"
-msgstr ""
+msgstr "[1][Erro ao renomear!][ Retentar | Cancelar ]"
 
 #: desk/desk_rsc.c
 msgid "[1][Failed to set default|directory.][  OK  ]"
-msgstr ""
+msgstr "[1][Falha em definir diretório|padrão.][  OK  ]"
 
 #: desk/desk_rsc.c
 msgid "[1][Illegal .INF file format.][  OK  ]"
-msgstr ""
+msgstr "[1][Formato de arquivo .INF ilegal.][  OK  ]"
 
 #: desk/desk_rsc.c
 msgid "[2][Continue to search?][  OK  |Cancel]"
-msgstr ""
+msgstr "[2][Continuar a pesquisa?][  OK  |Cancelar]"
 
 #: desk/desk_rsc.c
 msgid "[1][No more files.][  OK  ]"
@@ -1024,7 +1026,7 @@ msgstr ""
 
 #: cli/cmdint.c
 msgid "r=read-only  h=hidden  s=system  -=none"
-msgstr ""
+msgstr "r=só leitura  h=oculto  s=sistema  -=nada"
 
 #: cli/cmdint.c
 msgid "Clear screen"
@@ -1164,7 +1166,7 @@ msgstr ""
 
 #: cli/cmdint.c
 msgid "Builtin commands:"
-msgstr ""
+msgstr "Comandos internos:"
 
 #: cli/cmdint.c
 msgid "Listing of "
@@ -1172,7 +1174,7 @@ msgstr ""
 
 #: cli/cmdint.c
 msgid "Status for CON:"
-msgstr ""
+msgstr "Status para CON:"
 
 #: cli/cmdint.c
 msgid "  Resolution:     "
@@ -1180,11 +1182,11 @@ msgstr "  Resolução:     "
 
 #: cli/cmdint.c
 msgid "  Keyboard delay: "
-msgstr ""
+msgstr "  Atraso das teclas: "
 
 #: cli/cmdint.c
 msgid "  Keyboard rate:  "
-msgstr ""
+msgstr "  Repetição das teclas:  "
 
 #: cli/cmdint.c
 msgid "(empty)"
@@ -1280,7 +1282,7 @@ msgstr "atenção: sem buffer de histórico"
 
 #: cli/cmdparse.c
 msgid "more than one redirection"
-msgstr ""
+msgstr "mais de um redirecionamento"
 
 #: cli/cmdparse.c
 msgid "no filename for redirection"
@@ -1300,15 +1302,15 @@ msgstr "arquivo não encontrado"
 
 #: cli/cmdutil.c
 msgid "path not found"
-msgstr ""
+msgstr "caminho não encontrado"
 
 #: cli/cmdutil.c
 msgid "no more file handles"
-msgstr ""
+msgstr "sem mais manipuladores de arquivos"
 
 #: cli/cmdutil.c
 msgid "can't create file"
-msgstr ""
+msgstr "impossível criar arquivo"
 
 #: cli/cmdutil.c
 msgid "not enough memory"
@@ -1320,19 +1322,19 @@ msgstr "unidade inválida"
 
 #: cli/cmdutil.c
 msgid "interrupted"
-msgstr ""
+msgstr "interrompido"
 
 #: cli/cmdutil.c
 msgid "invalid path"
-msgstr ""
+msgstr "caminho inválido"
 
 #: cli/cmdutil.c
 msgid "can't write to disk (full?)"
-msgstr ""
+msgstr "impossível escrever no disco (está cheio?)"
 
 #: cli/cmdutil.c
 msgid "cmdline too long"
-msgstr ""
+msgstr "linha muito longa"
 
 #: cli/cmdutil.c
 msgid "directory not empty"
@@ -1340,7 +1342,7 @@ msgstr "diretório não está vazio"
 
 #: cli/cmdutil.c
 msgid "can't delete file (read-only?)"
-msgstr ""
+msgstr "impossível apagar o arquivo (só leitura?)"
 
 #: cli/cmdutil.c
 msgid "invalid parameter"
