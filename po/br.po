@@ -123,13 +123,13 @@ msgstr "[2][A unidade %c: não responde.|Verifique a unidade, ou|insira um disco.
 
 #: aes/gem_rsc.c
 msgid "[1][Data on the disk in drive %c:|may be damaged.][Cancel|Retry]"
-msgstr ""
+msgstr "[1][Dados do disco no volume %c:|podem estar corrompidos.][Cancelar|Retentar]"
 
 #: aes/gem_rsc.c
 msgid ""
 "[2][This application cannot read|data on the disk in drive %c:.][Cancel|"
 "Retry]"
-msgstr ""
+msgstr "[2][Esta aplicação não pode|ler os dados do volume em %c:l[Cancelar|Retentar]"
 
 #: aes/gem_rsc.c
 msgid "[1][Your output device is not|receiving data.][Cancel|Retry]"
@@ -145,7 +145,7 @@ msgstr "[3]Ocorreu um erro no GEM.|Por favor, contacte o time de|desenvolvimento
 msgid ""
 "[2][This application cannot|find the folder or file|you just tried to "
 "access.][  OK  ]"
-msgstr ""
+msgstr "[2][A aplicação não encontrou o|diretório ou arquivo que|se tentou acessar.][  OK  ]"
 
 #: aes/gem_rsc.c
 msgid ""
@@ -419,7 +419,7 @@ msgstr "  Remover ícone da mesa"
 
 #: desk/desk_rsc.c
 msgid "  Set preferences..."
-msgstr "  Preferências..."
+msgstr "  Ajustar preferências..."
 
 #: desk/desk_rsc.c
 msgid "  Desktop configuration..."
@@ -1118,15 +1118,15 @@ msgstr ""
 
 #: cli/cmdint.c
 msgid "Display current drive and directory"
-msgstr ""
+msgstr "Mostra volume e diretório correntes"
 
 #: cli/cmdint.c
 msgid "Rename <oldname> to <newname>"
-msgstr ""
+msgstr "Remomeia <antigo> para <novo>"
 
 #: cli/cmdint.c
 msgid "Delete files matching <filespec>"
-msgstr ""
+msgstr "Apaga os arquivos combinando em <padrão>"
 
 #: cli/cmdint.c
 msgid "Specify -q to be prompted each time"
@@ -1138,11 +1138,11 @@ msgstr "Apaga o diretório <dir>"
 
 #: cli/cmdint.c
 msgid "Show info for <drive> or current drive"
-msgstr ""
+msgstr "Exibe informações de <drive> ou do corrente"
 
 #: cli/cmdint.c
 msgid "Display GEMDOS version"
-msgstr "Exibit versÃ£o do GEMDOS"
+msgstr "Mostra a versão do GEMDOS"
 
 #: cli/cmdint.c
 msgid "Set line wrap or show current status"
