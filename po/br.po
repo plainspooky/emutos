@@ -167,7 +167,7 @@ msgstr "[1][O volume especificado|não existe.][Cancelar]"
 msgid ""
 "[1][There is not enough memory|in your computer for the|application you just "
 "tried|to run.][  OK  ]"
-msgstr ""
+msgstr "[1][Memória insuficiente no computador|para executar a aplicação que você|você selecionou.][  OK  ]"
 
 #: aes/gem_rsc.c
 msgid "[3][TOS error #%u.][Cancel]"
@@ -179,7 +179,7 @@ msgstr "[3]Função #%d não suportada pelo AES.][Cancelar]"
 
 #: aes/gem_rsc.c
 msgid "[1][Not enough memory for|this directory][  OK  ]"
-msgstr ""
+msgstr "[1][Sem memória para abrir|este diretório][  OK  ]"
 
 #: aes/gem_rsc.c
 msgid "ITEM SELECTOR"
@@ -878,11 +878,12 @@ msgstr "[3][Você não pode criar|or acessar um diretório|tão distante da raiz.][ 
 msgid ""
 "[3][You cannot create or access|a file or folder with that|name, because the "
 "pathname|is too long.][  OK  ]"
-msgstr ""
+msgstr "[3][Você não pode criar ou acessar|um arquivo ou diretório com es-|te nome pois o caminho é muito|
+longo.][  OK  ]"
 
 #: desk/desk_rsc.c
 msgid "[1][%s is used to|permanently delete files|or folders.][  OK  ]"
-msgstr ""
+msgstr "[1][%s é usado para apagar|permanentemente arquivos|ou diretórios.][  OK  ]"
 
 #: desk/desk_rsc.c
 msgid "[1][%s|is a printer.][  OK  ]"
@@ -927,17 +928,17 @@ msgstr "[1][Selecione o tipo de ícone.][Mesa|Janela|Cancelar]"
 
 #: desk/desk_rsc.c
 msgid "[1][No matching file type.][  OK  ]"
-msgstr ""
+msgstr "[1][Tipo de arquivo não encontrado.][  OK  ]"
 
 #: desk/desk_rsc.c
 msgid ""
 "[3][Formatting error. The target|disk may be write-protected|or unusable.]"
 "[ Retry | Abort ]"
-msgstr ""
+msgstr "[3][Erro ao formatar. O volume pode|estar protegido contra escrita|ou defeituoso.][ Retentar | Abortar ]"
 
 #: desk/desk_rsc.c
 msgid "[1][This disk has %ld bytes|available to the user.][ Continue | Quit ]"
-msgstr ""
+msgstr "[1][Volume possui %ld bytes|livres para o usuário.][ Continuar | Sair ]"
 
 #: desk/desk_rsc.c
 msgid "[1][Drive %s: does not exist.][ Cancel ]"
@@ -965,19 +966,19 @@ msgstr "[1][%s não encontrado.][  OK  ]"
 
 #: desk/desk_rsc.c
 msgid "[1][Cannot open file|%s][ Skip | Retry | Abort ]"
-msgstr ""
+msgstr "[1][Impossível abrir arquivo|%s][ Pular | Retentar | Abortar ]"
 
 #: desk/desk_rsc.c
 msgid "[1][Cannot create file|%s][ Skip | Retry | Abort ]"
-msgstr ""
+msgstr "[1][Impossível criar arquivo|%s][ Pular | Retentar | Abortar ]"
 
 #: desk/desk_rsc.c
 msgid "[1][Cannot read file|%s][ Skip | Abort ]"
-msgstr ""
+msgstr "[1][Impossível ler arquivo|%s][ Pular | Abortar ]"
 
 #: desk/desk_rsc.c
 msgid "[1][Cannot write file|%s][ Skip | Abort ]"
-msgstr ""
+msgstr "[1][Impossível escrever arquivo|%s][ Pular | Abortar ]"
 
 #: desk/desk_rsc.c
 msgid "[1][Rename error!][ Retry | Cancel ]"
@@ -997,16 +998,16 @@ msgstr "[2][Continuar a pesquisa?][  OK  |Cancelar]"
 
 #: desk/desk_rsc.c
 msgid "[1][No more files.][  OK  ]"
-msgstr ""
+msgstr "[1][Sem mais arquivos.][  OK  ]"
 
 #: desk/desk_rsc.c
 msgid ""
 "[2][Last key is already assigned.|Do you want to reassign it?][  OK  |Cancel]"
-msgstr ""
+msgstr "[2][Tecla já está assinalada.|Você deseja reassinalar?][  OK  ][Cancelar]"
 
 #: cli/cmdint.c
 msgid "Copy <filespec> ... to standard output"
-msgstr ""
+msgstr "Copia <filespec> ... para saída padrão"
 
 #: cli/cmdint.c
 msgid "Change current directory to <dir>"
@@ -1018,11 +1019,11 @@ msgstr "ou exibe o diretório atual"
 
 #: cli/cmdint.c
 msgid "Change attributes for <filename>"
-msgstr ""
+msgstr "Troca atributos para <filename>"
 
 #: cli/cmdint.c
 msgid "<mode> specifies the new attribute(s):"
-msgstr ""
+msgstr "<mode> espeficica novo(s) atributo(s):"
 
 #: cli/cmdint.c
 msgid "r=read-only  h=hidden  s=system  -=none"
@@ -1130,7 +1131,7 @@ msgstr "Apaga os arquivos combinando em <filespec>"
 
 #: cli/cmdint.c
 msgid "Specify -q to be prompted each time"
-msgstr ""
+msgstr "Use -q para ser perguntado cada vez"
 
 #: cli/cmdint.c
 msgid "Delete directory <dir>"
@@ -1146,23 +1147,23 @@ msgstr "Mostra a versão do GEMDOS"
 
 #: cli/cmdint.c
 msgid "Set line wrap or show current status"
-msgstr ""
+msgstr "Define quebra de linha ou exibe estado atual"
 
 #: cli/cmdint.c
 msgid "up/down arrow = previous/next line in history"
-msgstr ""
+msgstr "acima/abaixo = anterior/próxima linha do histórico"
 
 #: cli/cmdint.c
 msgid "left/right arrow = previous/next character"
-msgstr ""
+msgstr "esquerda/direita = anterior/próximo caractere"
 
 #: cli/cmdint.c
 msgid "control-left/right arrow = previous/next word"
-msgstr ""
+msgstr "control+esq./dir. = anterior/proxíma palavra"
 
 #: cli/cmdint.c
 msgid "invalid mode argument"
-msgstr ""
+msgstr "argumento inválido de modo"
 
 #: cli/cmdint.c
 msgid "Builtin commands:"
@@ -1170,7 +1171,7 @@ msgstr "Comandos internos:"
 
 #: cli/cmdint.c
 msgid "Listing of "
-msgstr ""
+msgstr "Listando de "
 
 #: cli/cmdint.c
 msgid "Status for CON:"
@@ -1194,7 +1195,7 @@ msgstr "(vazio)"
 
 #: cli/cmdint.c
 msgid "Delete ALL matching files"
-msgstr ""
+msgstr "Apagar TODOS os arquivos"
 
 #: cli/cmdint.c
 msgid "Delete file "
@@ -1202,7 +1203,7 @@ msgstr "Apaga arquivo"
 
 #: cli/cmdint.c
 msgid "Allocation info for drive "
-msgstr ""
+msgstr "Informações de alocação para o volume "
 
 #: cli/cmdint.c
 msgid "  Size (bytes):   "
@@ -1218,11 +1219,11 @@ msgstr "  Bytes livres:   "
 
 #: cli/cmdint.c
 msgid "  Total clusters: "
-msgstr "  Clusters totais: "
+msgstr "  Clusters totais:"
 
 #: cli/cmdint.c
 msgid "  Free clusters:  "
-msgstr "  Clusters livres:  "
+msgstr "  Clusters livres:"
 
 #: cli/cmdint.c
 msgid "  Sectors/cluster:"
@@ -1230,7 +1231,7 @@ msgstr "  Setores/cluster:"
 
 #: cli/cmdint.c
 msgid "  Bytes/sector:   "
-msgstr "  Bytes/setor:   "
+msgstr "  Bytes/setor:    "
 
 #: cli/cmdint.c
 msgid " is not a directory"
